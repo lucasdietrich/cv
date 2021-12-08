@@ -1,0 +1,21 @@
+/*
+   Overwrite CV (cv.css) style for pdf rendering
+ */
+
+@page {
+
+    size: A4;
+    margin: 0;
+}
+
+#cv {
+    width: 750px;
+}
+
+#cv #cv-header {
+    height: 130px;
+}
+
+#cv ul p{
+    font-size: 12px;
+}

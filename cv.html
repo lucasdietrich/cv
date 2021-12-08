@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CV Lucas Dietrich</title>
+
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+
+    <link rel="stylesheet" type="text/css" href="static/cv.css">
+    <link rel="stylesheet" type="text/css" href="static/cv_html_view.css">
+
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
+</head>
+
+<body>
+    <article>
+        <div id="cv">
+            <div id="cv-header">
+                <div id="cv-pic">
+                    <img id="cv-pic" src="static/pictures/cvpic.jpg" alt="Photo Lucas Dietrich" />
+                </div>
+                <div id="cv-coords">
+                    <span id="cv-name">Lucas DIETRICH</span><br />
+                    <span id="cv-other">
+                        25 ans <br/>
+                        <i class="fas fa-map-marker-alt"></i> 67000 Strasbourg (France)<br />
+                        <i class="fas fa-car"></i> Permis B, voiture personnelle<br />
+                        <i class="fas fa-envelope"></i> <a href="mailto:pro@ldietrich.fr">pro@ldietrich.fr</a><br />
+                        <!-- <i class="fas fa-link"></i> <a target="_blank" href="https://ldietrich.fr/profil/cv">ldietrich.fr</a><br /> -->
+                        <i class="fab fa-github"></i></i> <a target="_blank" href="https://github.com/lucasdietrich">github.com/lucasdietrich</a>
+                    </span>
+                </div>
+                <div id="cv-title">
+                    <p>Ingénieur logiciel embarqué</p>
+
+                    <span id="stars">**</span>
+
+                    <p>
+                        INSA Toulouse <br />
+                        Automatique et Electronique
+                    </p>
+                </div>
+            </div>
+            <div id="cv-profile">
+               Curieux, méthodique et autonome, je suis motivé par les technologies émergentes et solutions innovantes de l'embarqué. J'ai une affinité pour la recherche et le développement dans le domaine de l'IoT.
+
+                <!-- Jeune ingénieur diplômé de l’INSA de Toulouse, spécialité Automatique et Electronique.  -->
+                <!-- Curieux, méthodique et autonome, mes principaux atouts sont mon expérience d'une année dans le
+                développement de logiciels embarqués ainsi que mon vif intérêt pour les sciences et technologies. -->
+            </div>
+            <div id="cv-pro-exp">
+                <h1>Expériences professionnelles</h1>
+                <ul>
+                    <li>
+                        <div class="cv-label">
+                            <span>Depuis 2020 <br /> <span class="date">(1 an)</span><br />Kehl (DE)</span>
+                            <!-- ISO 3166 -->
+                        </div>
+                        <div class="cv-data">
+                            <b><a href="https://www.actimage.com/fr/" target="_blank">ACTIMAGE GmbH</a></b>
+                            <i>(160 salariés)</i> – <b>Ingénieur logiciel embarqué</b>
+                            <ul>
+                                <li>Intégration des fonctionnalités IoT pour le firmware d'un contrôleur de chauffage connecté (ARMv7 Cortex-M4) : Zephyr RTOS, embedded C++
+                                    <ul>
+                                        <li>
+                                            Serveur HTTPS (REST) pour servir l'application sur le Smartphone de l'utilisateur.
+                                        </li>
+                                        <li>
+                                            Client MQTT : ajout des fonctionnalités d'interaction avec le cloud Microsoft Azure (TWIN, online firmware update, télémétrie).
+                                        </li>
+                                        <li>
+                                            Réseau et sécurité : Gestion des certificats en mémoire flash, corrections et améliorations dans la stack TLS/TCP de Zephyr RTOS (mbedTLS), optimisation de l'application.
+                                        </li>
+                                    </ul>
+                                <li>Thread & Matter (CHIP): Veille technologique et preuve de concept (Nordic nrf52840 et Zephyr).</li>
+                                <li>Linux: Preuve de concept d'un gateway de couplage KNX- Zigbee : Python, Falcon SDK (C#), Docker, Raspberry PI.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cv-label">
+                            <span>2020 <span class="date">(6 mois)</span><br />Benfeld (FR 67)</span>
+                        </div>
+                        <div class="cv-data">
+                            <b><a href="https://www.socomec.fr/Accueil_fr.html" target="_blank">SOCOMEC SAS</a></b> <i>(3600 salariés) </i>
+                                – <b>Stage de fin d'étude en embarqué</b>
+                            <p>Développement d'un prototype de proxy cellulaire basé sur le composant Nordic nRF9160 pour permettre à une passerelle SOCOMEC existante d'accéder aux services du Cloud (SNTP, HTTP, SMTP).
+                            </p>
+                            <ul>
+                                <li>Proxy : Zephyr RTOS, Architecture et développement du logiciel embarqué, configuration LTE-M.</li>
+                                <li>Passerelle: Modification du firmware existant, ajout du support de la nouvelle interface "Proxy".</li>
+                                <li>Mise en place d'une liaison série (IPC) pour permettre l'appel des fonctions de l'API socket TCP/UDP depuis le produit.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cv-label">
+                            <span>2019 <span class="date">(3 mois)</span><br />Oxford (UK)</span>
+                        </div>
+                        <div class="cv-data">
+                            <b><a target="_blank" href="https://lightricity.co.uk/">LIGHTRICITY LTD</a></b> – Sharp
+                                laboratories of Europe – (5 salariés)
+                                <b>Stage IoT Hardware & Firmware - LoRa Tracker</b>
+                            <p>Développement d'un prototype de capteur connecté en LoRa, énergétiquement autonome, alimenté par des panneaux photovoltaïques
+                                hautes performances.</p>
+                            <ul>
+                                <li>Programmation en C du logiciel embarqué pour un stm32L4 en respectant les contraintes fortes de consommation d'énergie (« ultra low power »).</li>
+                                <li>Conception du circuit imprimé sous eagle, test, mesures de consommation.</li>
+                                <li>Installation du Gateway LoRa et de l’application Cloud sur TheThingsNetwork.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cv-label">
+                            <span>2018 <span class="date">(5 mois)</span><br />Toulouse (FR 31)</span>
+                        </div>
+                        <div class="cv-data">
+                            <b><a href="https://www.clemessy.com/expertises-marches/aeronautique"
+                                    target="_blank">CLEMESSY SAS</a></b> – Eiffage Energie Systèmes – (5000 salariés)
+                                    <b>Stage Hardware & Software</b>
+                            <p>Développement d’un prototype de valise portable et générique pour l’acquisition, le traitement
+                                et la génération de signaux électriques dans le cadre de tests sur des bancs d’essais
+                                pour l’industrie aéronautique.</p>
+                            <ul>
+                                <li>Architecture système (software et hardware) basé sur des châssis & modules de mesure
+                                    de type CompactDAQ par National Instruments.</li>
+                                <li class="hide">Définition des spécifications et de la documentation utilisateur.</li>
+                                <li>Développement de l'application et de l'interface homme-machine (IHM) avec C# .NET,
+                                    DAQmx et Measurement Studio.</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="hide">
+                        <div class="cv-label">
+                            <span>2017 <span class="date">(2 mois)</span><br />Benfeld (FR)</span>
+                        </div>
+                        <div class="cv-data">
+                            <p>SOCOMEC SAS, 3600 salariés<br />
+                                Opérateur de magasin – Job d’été</p>
+                            <ul>
+                                <li>Préparation de commandes, emballage et expédition</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="cv-train-qual">
+                <h1>Formations et diplômes</h1>
+                <ul>
+                    <li>
+                        <div class="cv-label">
+                            <span>2016 à 2020</span>
+                        </div>
+                        <div class="cv-data">
+                            <p>INSA de Toulouse - Institut National des Sciences Appliquées (31)</p>
+                            <ul>
+                                <li>Diplôme d'ingénieur, spécialité Automatique et Electronique, option Ingénierie des
+                                    Systèmes</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cv-label">
+                            <span>2014 à 2016</span>
+                        </div>
+                        <div class="cv-data">
+                            <p>CPGE Classes Préparatoires - PSI <b>*</b> - Mention « A » - Lycée J.B. Kléber de
+                                Strasbourg (67)</p>
+                            <ul>
+                                <li>PSI* - Physique, Sciences Industrielles</li>
+                                <li>MPSI – Physique, Mathématiques, Sciences Industrielles</li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="cv-label">
+                            <span>2011 à 2014</span>
+                        </div>
+                        <div class="cv-data">
+                            <p>Baccalauréat Scientifique - Mention « Très Bien » - Lycée J.B. Schwilgué, Sélestat (67)
+                            </p>
+                            <ul>
+                                <li>Spécialité Mathématiques, Option Sciences de l’Ingénieur</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="cv-skills">
+                <h1>Compétences techniques</h1>
+                <ul>
+                    <li>
+                        <div class="cv-label">
+                            <span>Embarqué</span>
+                        </div>
+                        <div class="cv-data">
+                            <ul>
+                                <li>
+                                    <div class="cv-label">
+                                        <span>Architectures</span>
+                                    </div>
+                                    <div class="cv-data">
+                                        <p>ARM (Cortex M0/M4), AVR (atmega328p), PIC16</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cv-label">
+                                        <span>Langages</span>
+                                    </div>
+                                    <div class="cv-data">
+                                        <p>Embedded C / C++, VHDL</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cv-label">
+                                        <span>Protocoles</span>
+                                    </div>
+                                    <div class="cv-data">
+                                        <p>TCP/UDP/IP, SSL/TLS, CAN, I2C, SPI, UART, LTE-M/NB-IoT, LoRa/LoRaWAN, ZigBee, KNX, Thread</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cv-label">
+                                        <span>Logiciels & CAO</span>
+                                    </div>
+                                    <div class="cv-data">
+                                        <p>Wireshark, GDB, VS Code, Segger ES, IAR EW, STM32Cube, Eagle</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cv-label">
+                                        <span>Signal</span>
+                                    </div>
+                                    <div class="cv-data">
+                                        <p>Automatique discrète et continue, traitement du signal, instrumentation</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cv-label">
+                            <span>Informatique</span>
+                        </div>
+                        <div class="cv-data">
+                            <ul>
+                                <li>
+                                    <div class="cv-label">
+                                        <span>Outils</span>
+                                    </div>
+                                    <div class="cv-data">
+                                        <p>git, Linux, docker, Bureautique: Excel, Word, PowerPoint, DrawIO</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cv-label">
+                                        <span>Langages</span>
+                                    </div>
+                                    <div class="cv-data">
+                                        <p>Maîtrise de Python comme outil de prototypage et de test, C# .NET
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cv-label">
+                                        <span>Développement WEB</span>
+                                    </div>
+                                    <div class="cv-data">
+                                        <p>Django, HTML, CSS, bases de données SQL, Apache, Javascript, PHP</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cv-label">
+                            <span>Systèmes Multiphysiques</span>
+                        </div>
+                        <div class="cv-data">
+                            <ul>
+                                <li>
+                                    <div class="cv-label">
+                                        <span>Architecture, modélisation et simulation</span>
+                                    </div>
+                                    <div class="cv-data">
+                                        <p>MBSE, Dymola & OpenModelica, Matlab (SimuLink), AweSim, SolidWorks, Catia,
+                                            SysML, Capella, Bond Graph, Dimensionnement</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div id="cv-lang">
+                    <h1>Langues</h1>
+                    <ul>
+                        <li>
+                            <!-- <p><span>Anglais</span> : Score TOEIC 810</p> -->
+                            <p><span>Anglais</span> : Professionnel</p>
+                        </li>
+                        <li>
+                            <p><span>Allemand</span> : Notions</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="cv-hobbies">
+                    <h1>Centres d'intérêts</h1>
+                    <p>Passionné de sciences, programmation, Jeux vidéos (compétition 1 an)</p>
+                </div>
+            </div>
+            </div>
+    </article>
+</body>
+</html>

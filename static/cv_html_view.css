@@ -1,0 +1,9 @@
+/*
+   Overwrite CV (cv.css) style for html rendering
+ */
+
+@page {
+
+    size: A4;
+    margin: 0;
+}

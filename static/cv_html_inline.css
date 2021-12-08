@@ -1,0 +1,49 @@
+
+article {
+}
+
+#cv {
+    width: 840px;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#cv-profile {
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+#cv p, #cv-profile {
+    font-size: 14px;
+}
+
+#cv h1 {
+    font-size: 16px;
+}
+
+#cv-title {
+    width: 320px;
+}
+
+#cv-title p{
+    font-size: 16px;
+}
+
+/* fix SKILLS section titles and content align for font-size >= 14px */
+.cv-data {
+    margin-left: 130px;
+}
+.cv-label
+{
+    width: 130px;
+}
+
+#cv-skills ul li ul li .cv-label
+{
+    width: 200px;
+}
+
+#cv-skills ul li ul li .cv-data
+{
+    margin-left: 200px;
+}
